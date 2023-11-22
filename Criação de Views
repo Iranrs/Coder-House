@@ -1,0 +1,66 @@
+Link: https://www.dropbox.com/scl/fi/f0tzdvrcd6bkzg1kgtikc/12972-50960-desafio-entreg-vel-cria-o-de-views-iran.santos-create_view18out2023.sql?rlkey=uusv5198h4p3m56p2d8kdfega&dl=0
+
+Demo:
+
+CREATE VIEW vw_exames_mais_feitos AS
+	SELECT 
+		E.ID_EXAME, 
+        E.EXAME_NOME, 
+        COUNT(C.ID_EXAME) AS TOTAL_EXAMES
+	FROM 
+		EXAME E
+		LEFT JOIN CONSULTA C ON E.ID_EXAME = C.ID_EXAME
+	GROUP BY E.ID_EXAME, E.EXAME_NOME
+	ORDER BY TOTAL_EXAMES DESC;
+
+ CREATE VIEW vw_especialidades_mais_usadas AS
+	SELECT 
+		V.VETERINARIO_ESPECIALIDADE AS ESPECIALIDADES, 
+		COUNT(C.ID_CONSULTA) AS TOTAL_ESPECIALIDADES
+	FROM 
+		VETERINARIO V
+		LEFT JOIN CONSULTA C ON V.ID_VETERINARIO = C.ID_VETERINARIO
+	GROUP BY V.VETERINARIO_ESPECIALIDADE
+	ORDER BY TOTAL_ESPECIALIDADES DESC;   
+    
+    CREATE VIEW vw_quantidade_pets_raca AS
+	SELECT 
+		PET_RACA AS RACA, 
+		COUNT(*) AS TOTAL_PET_RACA
+	FROM 
+		PET
+	GROUP BY PET_RACA
+	ORDER BY TOTAL_PET_RACA DESC;
+
+CREATE
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW vw_histórico_consultas AS
+    SELECT 
+        pt.PET_NOME AS PET_NOME,
+        pt.PET_RACA AS PET_RACA,
+        pt.ID_PET AS ID_PET,
+        CONCAT(dp.DONO_NOME, ' ', dp.DONO_SOBRENOME) AS DONO_NOME,
+        vt.VETERINARIO_NOME AS VETERINARIO_NOME,
+        vt.VETERINARIO_ESPECIALIDADE AS VETERINARIO_ESPECIALIDADE,
+        con.CONSULTA_DATA AS CONSULTA_DATA
+    FROM
+        (((pet pt
+        JOIN dono_pet dp ON ((pt.ID_DONO = dp.ID_DONO)))
+        JOIN consulta con ON ((con.ID_PET = pt.ID_PET)))
+        JOIN veterinario vt ON ((vt.ID_VETERINARIO = con.ID_VETERINARIO)))
+        ORDER BY PT.ID_PET 
+        ;
+           
+    CREATE VIEW VW_HIGIENE AS 
+    SELECT 
+    SERVICO_PRODUTO, PRECO 
+    FROM PRECOS
+    WHERE SERVICO_PRODUTO LIKE '%BANHO%';
+   
+SELECT * FROM vw_exames_mais_feitos; ---- View que mostra os exames que mais foram realizados na clínica.
+SELECT * FROM vw_especialidades_mais_usadas;---- View que mostra as especialidades que foram mais realizados na clínica.
+SELECT * FROM vw_quantidade_pets_raca; ---- Quantidade de pets por raça.
+SELECT * FROM vw_histórico_consultas; ---- View que mostra quais consultas, data e especialidade de cada PET.
+SELECT * FROM VW_HIGIENE; ---- View que demonstra o preço de banho e tosa para pequeno, médio e grande porte dos pets.
