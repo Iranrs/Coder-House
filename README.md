@@ -49,7 +49,7 @@ Tabela criada para guardar as informações do tutor do pet
 
                                                           TABELA EXAME
 
-Tabela criada para guardar as informações dos exames dos pets
+Onde é inserido os exames que os pets precisam fazer ou fez.
 
 | NOME DAS COLUNA  | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
 | -------------  | -------------    | -------------   | -------------                     | -------------             | ------------- |
@@ -83,7 +83,7 @@ Tabela criada para guardar as informações dos serviços e produtos vendidos na
 
 
                                                          TABELA VETERINARIO 
-Tabela criada para guardar as informações dos veterinarios
+Onde encontramos os dados do medico de plantão e suas devidas consultas e exames.
 
 | NOME DAS COLUNA                | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
 | -------------                  | -------------    | -------------   | -------------                     | -------------             | ------------- 
