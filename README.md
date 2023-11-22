@@ -70,7 +70,7 @@ Tabela criada para guardar as informações dos exames dos pets
 | NOME DAS COLUNA  | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
 | -------------  | -------------    | -------------   | -------------                     | -------------             | ------------- 
 |  ID_DONO       | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         |  ID DO TUTOR |
-|  ID_PET        | INT              | -               |              -                    | -                         | ID DO PET |
+|  ID_PET        | INT              | FOREIGN KEY     |              -                    | -                         | ID DO PET |
 |  PET_GENERO    | VARCHAR(1)       | -               |              -                    | -                         | GENERO DO PET |
 |  PET_NOME      | VARCHAR(45)      | -               |              -                    | -                         | NOME DO PET |
 |  PET_PESO      | DECIMAL (5,2)    | -               |              -                    | -                         | PESO DO PET |
