@@ -55,7 +55,7 @@ Tabela criada para guardar as informações dos exames dos pets
 |  ID_EXAME      | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | ID DO EXAME   |
 |  EXAME_NOME    | VARCHAR(100)     | -               |              -                    | -                         | NOME DO EXAME |
 
-                                                            TABELA PET
+                                                             TABELA PET
 
 Tabela criada para guardar as informações dos exames dos pets
 
@@ -69,6 +69,30 @@ Tabela criada para guardar as informações dos exames dos pets
 |  PET_RACA      | VARCHAR(45)      | -               |              -                    | -                         | RAÇA DO PET|
 |  PET_TIPO      | VARCHAR(45)      | -               |              -                    | -                         | |TIPO DO PET |
 
+                                                          TABELA PRECOS 
+
+
+Tabela criada para guardar as informações dos serviços e produtos vendidos na clínica
+
+| NOME DAS COLUNA    | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
+| -------------      | -------------    | -------------   | -------------                     | -------------             | ------------- 
+|  ID                | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | ID DO PRECO/PRODUTO |
+|  SERVICO_PRODUTO   | VARCHAR(200)     | -               |              -                    | -                         | REGISTROS DOS SERVIÇOS E PRODUTOS |
+|  PRECO             | DECIMAL (10,2)   | -               |              -                    | -                         | PREÇOS DOS SERVIÇOS E PRODUTOS    |
+
+
+                                                         TABELA VETERINARIO 
+Tabela criada para guardar as informações dos veterinarios
+
+| NOME DAS COLUNA                | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
+| -------------                  | -------------    | -------------   | -------------                     | -------------             | ------------- 
+|  ID_VETERINARIO                | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | ID DO VETERINARIO            |
+|  VETERINARIO_NOME              | VARCHAR(45)      | -               |              -                    | -                         | NOME DO VETERINARIO          |
+|  VETERINARIO_ESPECIALIDADE     | VARCHAR(100)     | -               |              -                    | -                         | ESPECIALIDADE DO VETERINARIO |
+
+
+
+                                                        
 
 
 
