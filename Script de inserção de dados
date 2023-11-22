@@ -1,0 +1,186 @@
+https://www.dropbox.com/scl/fi/gb3omm71mj497c2z98htu/41064-50960-desafio-entreg-vel-script-de-inser-o-de-dados-iran.santos-inser-o-de-dados.sql?rlkey=3jv7l2gkz25tc4zhf3u6v4azv&dl=0
+
+Demo: 
+
+USE PET_FRIENDS;
+
+-- Inserindo Dados na Tabela Exame 
+INSERT INTO EXAME 
+	(EXAME_NOME) 
+VALUE 
+	('Hemograma'),
+	('Exame de Urina'),
+    ('Exame Coproparasitológico'),
+    ('Função Hepática'),
+    ('Ultrassonografia Abdominal'),
+    ('Eletrocardiograma'),
+    ('Exame Sorológico FIV e FeLV'),
+    ('Exame Oftalmológico'),
+    ('Raio X'),
+    ('Endoscopia'),
+    ('Radiografia'),
+    ('Tomografia');
+    
+-- Inserindo Dados na Tabela Veterinario
+INSERT INTO VETERINARIO 
+	(ID_VETERINARIO, VETERINARIO_NOME, VETERINARIO_ESPECIALIDADE) 
+VALUE 
+	(1, 'Gabriela', 'Clinico Geral'),
+    (null, 'Vanessa', 'Oftalmologia'),
+	(null, 'Eduardo', 'Dermatologia'),
+    (null, 'Karen', 'Cirurgia Geral'),
+    (null, 'Marcos', 'Cardiologia'),
+    (null, 'Lais', 'Anestesiologia'),
+    (null, 'Stefany', 'Ortopedia');
+
+-- Inserindo Dados na Tabela Dono_Pet
+INSERT INTO DONO_PET (DONO_NOME, DONO_SOBRENOME, DONO_CPF, DONO_ENDERECO, DONO_EMAIL, DONO_TELEFONE)
+VALUES
+('João', 'Silva', '12345678901', 'Rua A, 123', 'joao.silva@email.com', '123-456-7890'),
+('Maria', 'Oliveira', '98765432101', 'Avenida B, 456', 'maria.oliveira@email.com', '987-654-3210'),
+('Carlos', 'Fernandes', '98765432102', 'Rua C, 789', 'carlos.fernandes@email.com', '789-123-4567'),
+('Ana', 'Santos', '12345678902', 'Avenida D, 567', 'ana.santos@email.com', '456-789-0123'),
+('Pedro', 'Souza', '45678901201', 'Rua E, 890', 'pedro.souza@email.com', '890-123-4567'),
+('Laura', 'Lima', '78901234501', 'Avenida F, 901', 'laura.lima@email.com', '901-234-5678'),
+('Mariana', 'Pereira', '34567890101', 'Rua G, 234', 'mariana.pereira@email.com', '234-567-8901'),
+('Ricardo', 'Ferreira', '67890123401', 'Avenida H, 567', 'ricardo.ferreira@email.com', '567-890-1234'),
+('Fernanda', 'Gomes', '12345098701', 'Rua I, 890', 'fernanda.gomes@email.com', '987-654-3210'),
+('Paulo', 'Oliveira', '54321098701', 'Avenida J, 567', 'paulo.oliveira@email.com', '543-210-9876'),
+('Carla', 'Santana', '10987654301', 'Rua K, 123', 'carla.santana@email.com', '109-876-5432'),
+('Rafael', 'Pereira', '67890543201', 'Avenida L, 456', 'rafael.pereira@email.com', '678-905-4321'),
+('Luana', 'Rocha', '21098765401', 'Rua M, 890', 'luana.rocha@email.com', '210-987-6543'),
+('Daniel', 'Mendes', '65432109801', 'Avenida N, 567', 'daniel.mendes@email.com', '654-321-0987'),
+('Leticia', 'Sousa', '32109876501', 'Rua O, 123', 'leticia.sousa@email.com', '321-098-7654'),
+('Marcos', 'Lima', '98765012301', 'Avenida P, 456', 'marcos.lima@email.com', '987-650-1234'),
+('Bianca', 'Almeida', '89012345601', 'Rua Q, 890', 'bianca.almeida@email.com', '890-123-4560'),
+('Rodrigo', 'Ferreira', '56789012301', 'Avenida R, 567', 'rodrigo.ferreira@email.com', '567-890-1235'),
+('Juliana', 'Carvalho', '09876543201', 'Rua S, 123', 'juliana.carvalho@email.com', '098-765-4321'),
+('Gabriel', 'Pereira', '76543210901', 'Avenida T, 456', 'gabriel.pereira@email.com', '765-432-1098'),
+('Isabella', 'Santos', '23456789001', 'Rua U, 890', 'isabella.santos@email.com', '234-567-8901'),
+('Felipe', 'Fernandes', '54321098702', 'Avenida V, 567', 'felipe.fernandes@email.com', '543-210-9876'),
+('Amanda', 'Oliveira', '10987654302', 'Rua W, 123', 'amanda.oliveira@email.com', '109-876-5432'),
+('Marcelo', 'Rocha', '67890543202', 'Avenida X, 456', 'marcelo.rocha@email.com', '678-905-4321'),
+('Camila', 'Mendes', '21098765402', 'Rua Y, 890', 'camila.mendes@email.com', '210-987-6543'),
+('Thiago', 'Sousa', '65432109802', 'Avenida Z, 123', 'thiago.sousa@email.com', '654-321-0987'),
+('Lucas', 'Lima', '98765012302', 'Rua AA, 456', 'lucas.lima@email.com', '987-650-1234'),
+('Isabel', 'Almeida', '89012345602', 'Avenida AB, 890', 'isabel.almeida@email.com', '890-123-4560'),
+('Vitor', 'Ferreira', '56789012302', 'Rua AC, 567', 'vitor.ferreira@email.com', '567-890-1235'),
+('Rafaela', 'Carvalho', '09876543202', 'Avenida AD, 123', 'rafaela.carvalho@email.com', '098-765-4321'),
+('Eduardo', 'Pereira', '76543210902', 'Rua AE, 890', 'eduardo.pereira@email.com', '765-432-1098'),
+('Luiza', 'Santos', '23456789002', 'Avenida AF, 456', 'luiza.santos@email.com', '234-567-8901'),
+('Marcela', 'Fernandes', '54321098703', 'Rua AG, 123', 'marcela.fernandes@email.com', '543-210-9876'),
+('Thales', 'Oliveira', '10987654303', 'Avenida AH, 456', 'thales.oliveira@email.com', '109-876-5432'),
+('Nathalia', 'Rocha', '67890543203', 'Rua AI, 890', 'nathalia.rocha@email.com', '678-905-4321'),
+('Renato', 'Mendes', '21098765403', 'Avenida AJ, 123', 'renato.mendes@email.com', '210-987-6543'),
+('Diego', 'Lima', '98765012303', 'Rua AL, 890', 'diego.lima@email.com', '987-650-1234'),
+('Aline', 'Almeida', '89012345603', 'Avenida AM, 456', 'aline.almeida@email.com', '890-123-4560'),
+('Fernando', 'Ferreira', '56789012303', 'Rua AN, 567', 'fernando.ferreira@email.com', '567-890-1235'),
+('Tatiana', 'Carvalho', '09876543203', 'Avenida AO, 123', 'tatiana.carvalho@email.com', '098-765-4321'),
+('Mateus', 'Pereira', '76543210903', 'Rua AP, 890', 'mateus.pereira@email.com', '765-432-1098'),
+('Larissa', 'Santos', '23456789003', 'Avenida AQ, 456', 'larissa.santos@email.com', '234-567-8901'),
+('Raphael', 'Fernandes', '54321098704', 'Rua AR, 123', 'raphael.fernandes@email.com', '543-210-9876'),
+('Amanda', 'Oliveira', '10987654304', 'Avenida AS, 456', 'amanda.oliveira@email.com', '109-876-5432'),
+('Jorge', 'Rocha', '67890543204', 'Rua AT, 890', 'jorge.rocha@email.com', '678-905-4321'),
+('Elaine', 'Mendes', '21098765404', 'Avenida AU, 123', 'elaine.mendes@email.com', '210-987-6543'),
+('Gustavo', 'Sousa', '65432109804', 'Rua AV, 456', 'gustavo.sousa@email.com', '654-321-0987'),
+('Lívia', 'Lima', '98765012304', 'Avenida AW, 890', 'livia.lima@email.com', '987-650-1234'),
+('Anderson', 'Almeida', '89012345604', 'Rua AX, 567', 'anderson.almeida@email.com', '890-123-4560'),
+('Natália', 'Ferreira', '56789012304', 'Avenida AY, 123', 'natalia.ferreira@email.com', '567-890-1235'),
+('Vinicius', 'Carvalho', '09876543204', 'Rua AZ, 456', 'vinicius.carvalho@email.com', '098-765-4321'),
+('Aline', 'Pereira', '76543210904', 'Avenida BA, 890', 'aline.pereira@email.com', '765-432-1098'),
+('Renan', 'Santos', '23456789004', 'Rua BB, 123', 'renan.santos@email.com', '234-567-8901'),
+('Roberta', 'Fernandes', '54321098705', 'Avenida BC, 456', 'roberta.fernandes@email.com', '543-210-9876'),
+('Alexandre', 'Oliveira', '10987654305', 'Rua BD, 890', 'alexandre.oliveira@email.com', '109-876-5432'),
+('Sandra', 'Rocha', '67890543205', 'Avenida BE, 123', 'sandra.rocha@email.com', '678-905-4321');
+
+INSERT INTO PET 
+	(ID_DONO, PET_NOME, PET_GENERO, PET_TIPO, PET_RACA, PET_PESO)
+VALUES
+	(1, 'Buddy', 'M', 'Cachorro', 'Labrador', 25.5),
+	(1, 'Bobby', 'M', 'Cachorro', 'Sem Raça Definida', 10.5),
+	(2, 'Misty', 'F', 'Gato', 'Siamês', 8.2),
+	(3, 'Rocky', 'M', 'Cachorro', 'Golden Retriever', 30.0),
+	(4, 'Luna', 'F', 'Cachorro', 'Husky Siberiano', 22.7),
+	(5, 'Whiskers', 'M', 'Gato', 'Persa', 10.4),
+	(6, 'Charlie', 'M', 'Cachorro', 'Sem Raça Definida', 18.9),
+	(7, 'Daisy', 'F', 'Cachorro', 'Poodle', 12.3),
+	(8, 'Oliver', 'M', 'Gato', 'Maine Coon', 15.7),
+	(9, 'Sophie', 'F', 'Cachorro', 'Shih Tzu', 9.6),
+	(10, 'Bailey', 'M', 'Cachorro', 'Labrador', 31.2),
+	(11, 'Chloe', 'F', 'Gato', 'Sem Raça Definida', 11.8),
+	(11, 'Whiskers', 'F', 'Gato', 'Siamese', 5.2),
+	(12, 'Tucker', 'M', 'Cachorro', 'Dálmata', 27.3),
+	(13, 'Molly', 'F', 'Cachorro', 'Golden Retriever', 29.8),
+	(14, 'Leo', 'M', 'Gato', 'Bengal', 13.1),
+	(15, 'Lucy', 'F', 'Cachorro', 'Pomerânia', 7.4),
+	(16, 'Max', 'M', 'Cachorro', 'Bulldog', 22.1),
+	(17, 'Zoe', 'F', 'Gato', 'Siamese', 9.9),
+	(18, 'Milo', 'M', 'Cachorro', 'Pug', 14.7),
+	(18, 'Rocky', 'M', 'Cachorro', 'Golden Retriever', 18.3),
+	(19, 'Lily', 'F', 'Gato', 'Sem Raça Definida', 11.5),
+	(20, 'Cooper', 'M', 'Cachorro', 'Sem Raça Definida', 19.2),
+	(21, 'Lola', 'F', 'Cachorro', 'Sem Raça Definida', 27.8),
+	(22, 'Oscar', 'M', 'Gato', 'Sem Raça Definida', 6.6),
+	(23, 'Ruby', 'F', 'Cachorro', 'Bulldog Francês', 15.0),
+	(24, 'Bailey', 'M', 'Cachorro', 'Chihuahua', 4.3),
+	(25, 'Lulu', 'F', 'Gato', 'Sem Raça Definida', 12.9),
+	(25, 'Smokey', 'M', 'Gato', 'Ragdoll', 6.7),
+	(26, 'Riley', 'M', 'Cachorro', 'Dachshund', 13.5),
+	(27, 'Willow', 'F', 'Gato', 'Maine Coon', 16.3),
+	(28, 'Teddy', 'M', 'Cachorro', 'Shiba Inu', 17.8),
+	(29, 'Sasha', 'F', 'Cachorro', 'Sem Raça Definida', 25.7),
+	(30, 'Leo', 'M', 'Gato', 'British Shorthair', 11.4),
+	(31, 'Sadie', 'F', 'Cachorro', 'Bulldog', 20.1),
+	(32, 'Coco', 'M', 'Cachorro', 'Dálmata', 21.6),
+	(32, 'Luna', 'F', 'Cachorro', 'Poodle', 7.0),
+	(33, 'Mia', 'F', 'Gato', 'Bengal', 14.2),
+	(34, 'Max', 'M', 'Cachorro', 'Poodle', 16.7),
+	(35, 'Zoe', 'F', 'Gato', 'Siamese', 8.5),
+	(36, 'Toby', 'M', 'Cachorro', 'Golden Retriever', 29.0),
+	(37, 'Chloe', 'F', 'Cachorro', 'Yorkshire Terrier', 6.8),
+	(38, 'Maddie', 'F', 'Gato', 'Sem Raça Definida', 9.6),
+	(39, 'Duke', 'M', 'Cachorro', 'Boxer', 24.3),
+	(40, 'Stella', 'F', 'Cachorro', 'Sem Raça Definida', 28.9),
+	(41, 'Bentley', 'M', 'Cachorro', 'Pug', 15.4),
+	(42, 'Lily', 'F', 'Gato', 'Maine Coon', 14.8),
+	(43, 'Bailey', 'M', 'Cachorro', 'Schnauzer Miniatura', 12.7),
+	(44, 'Oliver', 'M', 'Gato', 'Ragdoll', 11.0),
+	(45, 'Lucy', 'F', 'Cachorro', 'Bulldog Francês', 17.5),
+	(46, 'Mia', 'F', 'Gato', 'Scottish Fold', 10.2),
+	(46, 'Rex', 'M', 'Cachorro', 'Sem Raça Definida', 15.8),
+	(47, 'Cooper', 'M', 'Cachorro', 'Cocker Spaniel', 16.4),
+	(48, 'Lola', 'F', 'Cachorro', 'Dachshund', 14.1),
+	(49, 'Charlie', 'M', 'Cachorro', 'Husky Siberiano', 28.6),
+	(50, 'Sophie', 'F', 'Cachorro', 'Shih Tzu', 9.9),
+	(50, 'Milo', 'M', 'Gato', 'Maine Coon', 11.2),
+	(51, 'Rocky', 'M', 'Cachorro', 'Beagle', 20.3),
+	(52, 'Smokey', 'M', 'Gato', 'Sphynx', 7.7),
+	(53, 'Luna', 'F', 'Cachorro', 'Chihuahua', 5.5),
+	(54, 'Buddy', 'M', 'Cachorro', 'Dálmata', 23.8),
+	(55, 'Daisy', 'F', 'Cachorro', 'Labrador', 31.4),
+	(56, 'Whiskers', 'M', 'Gato', 'Siamese', 9.2),
+	(56, 'Coco', 'F', 'Cachorro', 'Chihuahua', 3.2);
+    
+-- Inserindo Dados na Tabela Consulta
+
+-- PROCEDURE para rodar a Query 500 vezes
+DELIMITER $$
+    CREATE PROCEDURE ExecuteQuery500Times()
+BEGIN
+    DECLARE i INT DEFAULT 0;
+    WHILE i < 500 DO
+        -- Gerando os dados
+       INSERT INTO CONSULTA  
+        (ID_PET, ID_VETERINARIO, ID_EXAME, CONSULTA_DATA, CONSULTA_HORA)
+		select
+            FLOOR(RAND() * 64) + 1,        -- ID_PET: Valores aleatórios entre 1 e 64
+            FLOOR(RAND() * 7) + 1,        -- ID_VETERINARIO: Valores aleatórios entre 1 e 7
+            FLOOR(RAND() * 12) + 1,        -- ID_EXAME: Valores aleatórios entre 1 e 12
+            DATE_ADD('2022-01-01', INTERVAL FLOOR(RAND() * 600) DAY), -- CONSULTA_DATA: Data aleatória a partir de 01.01.2022
+            MAKETIME(FLOOR(RAND() * 24), FLOOR(RAND() * 60), 0);     -- CONSULTA_HORA: Hora aleatória entre 00:00 e 23:59
+        SET i = i + 1;
+    END WHILE;
+END$$
+DELIMITER ;
+-- Chama a procedure para executar a consulta 500 vezes
+CALL ExecuteQuery500Times();
