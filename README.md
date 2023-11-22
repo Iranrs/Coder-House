@@ -15,16 +15,18 @@ Tabela com todos os dados da consulta da clínica veterinaria.
 |  CONSULTA_HORA | TIME  |  - | -  | - | HORÁRIO DA CONSULTA  |
 
                                                      TRIGGERS 
+TRIGGER BEFORE INSERT:
+Trigger criada para permitir inserir valores negativos na coluna ID_CONSULTA.
 
-
-
+TRIGGER AFERT INSERT:
+Trigger criada para logs de inserções dos registros na tabela consulta.
 
                                                   TABELA CONSULTA LOG
 Tabela criada derivada de um trigger after.
 
 | NOME DAS COLUNA  | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
 | -------------  | -------------    | -------------   | -------------                     | -------------             | ------------- |
-|  CONSULTA_ID   | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | ID da consulta
-|  DATA_REGISTRO | DATETIME         | -               |              -                    | -                         | ID do pet  |
-|  USUARIO       | VARCHAR(100)     | -               |              -                    | -                         | ID do veterinario |
+|  CONSULTA_ID   | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | Consulta do ID
+|  DATA_REGISTRO | DATETIME         | -               |              -                    | -                         | DATA do insert na tabela  |
+|  USUARIO       | VARCHAR(100)     | -               |              -                    | -                         | USUARIO Que inseriu o registro |
 
