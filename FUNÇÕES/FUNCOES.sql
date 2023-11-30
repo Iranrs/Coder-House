@@ -1,5 +1,3 @@
-Link: https://www.dropbox.com/scl/fi/zon06u3ln6eqi5uytn8ob/17651-50960-desafio-entreg-vel-script-de-cria-o-de-fun-es-iran.santos-entrega07_funcoes.sql?rlkey=4tcchiyck4tfj2b279l82xid7&dl=0
-
 -- Função que mostra a última consulta realizada pelo pet
 delimiter $$
 CREATE FUNCTION `fn_Ultima_Consulta_Pet`(Nome_Pet varchar(50), Nome_Dono varchar(100)) RETURNS date
@@ -18,7 +16,6 @@ BEGIN
 RETURN data_consulta ;
 END
 $$
-
 
 
 -- Função que mostra os Pets que o dono tem cadastrado
@@ -47,4 +44,3 @@ DELIMITER ;
 SELECT fn_Ultima_Consulta_Pet ('Buddy', 'João');
 SELECT fn_Pets_Do_Dono ('João', '12345678901');
 */
--- IRAN
