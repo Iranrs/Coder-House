@@ -89,7 +89,7 @@ Onde é inserido os exames que os pets precisam fazer ou fez.
 |  ID_EXAME      | INT              | PRIMARY KEY     |   índice clusterizado (B-TREE)    | -                         | ID DO EXAME   |
 |  EXAME_NOME    | VARCHAR(100)     | -               |              -                    | -                         | NOME DO EXAME |
 
-                                                             TABELA PET
+                                                      TABELA PET
 
 Tabela criada para guardar as informações dos exames dos pets
 
