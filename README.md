@@ -11,6 +11,8 @@ O grande volume de informações descentralizadas foi se tornando um obstáculo 
 
 <a href="https://github.com/Iranrs/Coder-House/tree/main/VIEW"> VIEWS</a> 
 
+<a href="https://github.com/Iranrs/Coder-House/tree/main/VIEW"> DIAGRAMA</a> 
+
 Criação de tabelas
 Inserção de dados
 Views
