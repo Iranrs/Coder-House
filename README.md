@@ -1,9 +1,22 @@
+Introdução ao Banco de Dados para Clínica Veterinária
+
+Bem-vindo ao banco de dados dedicado à gestão eficiente e abrangente de uma clínica veterinária. Este sistema foi projetado para atender às necessidades específicas do setor veterinário, proporcionando uma plataforma robusta para armazenamento, organização e recuperação de informações cruciais relacionadas aos pacientes, funcionários, procedimentos e registros financeiros.
+
+A gestão eficaz de uma clínica veterinária requer um controle preciso e acessível de dados vitais, desde informações médicas detalhadas sobre os animais até a administração de compromissos e a supervisão das atividades financeiras. Nosso banco de dados foi desenvolvido para proporcionar uma solução abrangente e integrada, permitindo que a equipe veterinária concentre-se no que faz de melhor: fornecer cuidados excepcionais aos animais de estimação.
 
 
+O grande volume de informações descentralizadas foi se tornando um obstáculo no crescimento do negócio. Uma vez que o tempo utilizado na organização do próprio negócio poderia ser melhor administrado para questões relacionadas a negociação e fechamento das vendas.
 
-# Coder-House
-Banco de dados:
-Clínica Veterinária (PET FRIENDS)
+Scripts de insert <a href="https://www.google.com/](https://github.com/Iranrs/Coder-House/tree/main/INSERT%20INTO)).com">Visite Google </a>
+
+Criação de tabelas
+Inserção de dados
+Views
+Funções
+Stored Procedures
+Triggers
+Usuários
+
 
 
 
@@ -101,5 +114,5 @@ Onde encontramos os dados do medico de plantão e suas devidas consultas e exame
 
 
 
-<a href="https://www.google.com/).com">Visite Google </a>
+
                                                         
