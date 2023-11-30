@@ -7,7 +7,7 @@ A gestão eficaz de uma clínica veterinária requer um controle preciso e acess
 
 O grande volume de informações descentralizadas foi se tornando um obstáculo no crescimento do negócio. Uma vez que o tempo utilizado na organização do próprio negócio poderia ser melhor administrado para questões relacionadas a negociação e fechamento das vendas.
 
-Scripts de insert <a href="https://www.google.com/](https://github.com/Iranrs/Coder-House/tree/main/INSERT%20INTO)).com">Visite Google </a>
+Scripts de insert <a href="https://github.com/Iranrs/Coder-House/tree/main/INSERT%20INTO)).com">Visite Google </a>
 
 Criação de tabelas
 Inserção de dados
