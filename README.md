@@ -45,7 +45,7 @@ Os benefícios incluem a redução de erros administrativos, a melhoria na efici
 
 <a href="https://github.com/Iranrs/Coder-House/tree/main/TRIGGERS"> TRIGGERS</a> 
 
-
+Linguagem utilizada: mysql workbench
 
 ### TABELAS QUE COMPOEM O BANCO DE DADOS
 
