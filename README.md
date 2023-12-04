@@ -46,14 +46,6 @@ Os benefícios incluem a redução de erros administrativos, a melhoria na efici
 <a href="https://github.com/Iranrs/Coder-House/tree/main/TRIGGERS"> TRIGGERS</a> 
 
 
-Criação de tabelas
-Inserção de dados
-Views
-Funções
-Stored Procedures
-Triggers
-Usuários
-
 
 ### TABELAS QUE COMPOEM O BANCO DE DADOS
 
@@ -97,7 +89,7 @@ Tabela criada para guardar as informações do tutor do pet
 |  DONO_TELEFONE | VARCHAR(15)      | -               |              -                    | -                         | TELEFONE DO TUTOR |
 
 
-                                                          TABELA EXAME
+                                                     TABELA EXAME
 
 Onde é inserido os exames que os pets precisam fazer ou fez.
 
@@ -120,7 +112,7 @@ Tabela criada para guardar as informações dos exames dos pets
 |  PET_RACA      | VARCHAR(45)      | -               |              -                    | -                         | RAÇA DO PET|
 |  PET_TIPO      | VARCHAR(45)      | -               |              -                    | -                         | |TIPO DO PET |
 
-                                                          TABELA PRECOS 
+                                                       TABELA PRECOS 
 
 
 Tabela criada para guardar as informações dos serviços e produtos vendidos na clínica
@@ -132,7 +124,7 @@ Tabela criada para guardar as informações dos serviços e produtos vendidos na
 |  PRECO             | DECIMAL (10,2)   | -               |              -                    | -                         | PREÇOS DOS SERVIÇOS E PRODUTOS    |
 
 
-                                                         TABELA VETERINARIO 
+                                                     TABELA VETERINARIO 
 Onde encontramos os dados do medico de plantão e suas devidas consultas e exames.
 
 | NOME DAS COLUNA                | TIPO DOS DADOS | CHAVE |             INDEXES                         | TABELA REFERENCIADA       | DESCRIÇÃO | 
