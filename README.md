@@ -46,14 +46,6 @@ Os benefícios incluem a redução de erros administrativos, a melhoria na efici
 <a href="https://github.com/Iranrs/Coder-House/tree/main/TRIGGERS"> TRIGGERS</a> 
 
 
-Criação de tabelas
-Inserção de dados
-Views
-Funções
-Stored Procedures
-Triggers
-Usuários
-
 
 ### TABELAS QUE COMPOEM O BANCO DE DADOS
 
