@@ -27,7 +27,24 @@ Os benefícios incluem a redução de erros administrativos, a melhoria na efici
 
 <a href="https://github.com/Iranrs/Coder-House/tree/main/VIEW"> VIEWS</a> 
 
-<a href="https://github.com/Iranrs/Coder-House/tree/main/VIEW"> DIAGRAMA</a> 
+<a href="https://github.com/Iranrs/Coder-House/tree/main/DIAGRAMA"> DIAGRAMA</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/BACKUPS"> BACKUPS</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/DCL"> DCL</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/DDL"> DDL</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/DML"> DML</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/TCL"> TCL</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/FUN%C3%87%C3%95ES"> FUNÇÕES</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/PROCEDIMENTOS%20ARMAZENADOS"> PROCEDIMENTOS ARMAZENADOS</a> 
+
+<a href="https://github.com/Iranrs/Coder-House/tree/main/TRIGGERS"> TRIGGERS</a> 
+
 
 Criação de tabelas
 Inserção de dados
