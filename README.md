@@ -31,8 +31,6 @@ Os benefícios incluem a redução de erros administrativos, a melhoria na efici
 
 <a href="https://github.com/Iranrs/Coder-House/tree/main/BACKUPS"> BACKUPS</a> 
 
-<a href="https://github.com/Iranrs/Coder-House/tree/main/BACKUPS"> BACKUPS</a> 
-
 <a href="https://github.com/Iranrs/Coder-House/tree/main/DCL"> DCL</a> 
 
 <a href="https://github.com/Iranrs/Coder-House/tree/main/DDL"> DDL</a> 
